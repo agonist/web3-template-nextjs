@@ -9,15 +9,14 @@
     "start": "next start"
   },
   "dependencies": {
-    "@rainbow-me/rainbowkit": "^0.8.1",
-    "ethers": "^5.7.2",
     "next": "13.1.2",
+    "next-themes": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "wagmi": "^0.10.15",
     "zod": "^3.20.2"
   },
   "devDependencies": {
+    "@rainbow-me/rainbowkit": "^0.8.1",
     "@types/node": "^18.11.18",
     "@types/prettier": "^2.7.2",
     "@types/react": "^18.0.26",
@@ -25,13 +24,16 @@
     "@typescript-eslint/eslint-plugin": "^5.47.1",
     "@typescript-eslint/parser": "^5.47.1",
     "autoprefixer": "^10.4.7",
+    "encoding": "^0.1.13",
     "eslint": "^8.30.0",
     "eslint-config-next": "13.1.2",
+    "ethers": "^5.7.2",
     "postcss": "^8.4.14",
     "prettier": "^2.8.1",
     "prettier-plugin-tailwindcss": "^0.2.1",
     "tailwindcss": "^3.2.0",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.4",
+    "wagmi": "^0.9.0"
   },
   "ct3aMetadata": {
     "initVersion": "7.3.2"
