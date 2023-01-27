@@ -1,28 +1,13 @@
-# Create T3 App
+# NextJS Web3 Template
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+GM, this is a template to get started fast when doing web3 dapp.
+I'm tailoring it to my needs and will keep adding what's always necessary and other basic components to make our life easier.
 
-## What's next? How do I make an app with this?
+Use it if you feel like it. Open issues if there is ugly stuff because I'm not a web master. Make PR if you're someone with a big heart.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## What's in it for now
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
-
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
-
-## Learn More
-
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+- Usage of NextJS new app dir. It's in beta and experimental but it's cool, so we're being adventurous.
+- TailwindCSS with multiple themes support and theme variables to make our life easier like `bg-primary` instead of `bg-white dark:bg-black`
+- RainbowKit + Wagmi for wallet connect and blockchain interactions.
+- statically typed env so we fail early. (thx t3 stack)
