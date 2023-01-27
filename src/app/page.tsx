@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Link from "next/link";
-import { WalletConnect } from "../core/component/WalletConnect";
 
 export default function Home() {
   return (

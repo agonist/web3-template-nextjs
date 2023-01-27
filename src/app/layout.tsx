@@ -13,12 +13,10 @@ import { alchemyProvider } from "wagmi/providers/alchemy";
 import { publicProvider } from "wagmi/providers/public";
 import "../styles/index.css";
 import { clientEnv } from "../env/schema.mjs";
-import { NavBar } from "../core/component/NavBar";
 import { ThemeProvider } from "next-themes";
+import NavBar from "../core/component/Navbar";
 
 export default function RootLayout({
-  // Layouts must accept a children prop.
-  // This will be populated with nested layouts or pages
   children,
 }: {
   children: React.ReactNode;
