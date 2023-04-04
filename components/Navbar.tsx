@@ -1,12 +1,13 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
-import { Fragment } from "react";
-import { Popover, Transition } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { WalletConnect } from "./WalletConnect";
-import ThemeSwitchButton from "./ThemeSwitcher";
-import Image from "next/image";
-import Link from "next/link";
-import { navLinks } from "../../config/nav.links";
+import { Fragment } from "react"
+import Image from "next/image"
+import Link from "next/link"
+import { Popover, Transition } from "@headlessui/react"
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
+
+import { navLinks } from "../../config/nav.links"
+import { WalletConnect } from "../../core/component/WalletConnect"
+import { ThemeSwitcher } from "./ThemeSwitcher"
 
 export default function CoolNavBar() {
   return (
@@ -47,7 +48,7 @@ export default function CoolNavBar() {
           </Popover.Group>
           <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
             <WalletConnect />
-            <ThemeSwitchButton />
+            <ThemeSwitcher />
           </div>
         </div>
       </div>
@@ -113,12 +114,12 @@ export default function CoolNavBar() {
             <div className="space-y-6 py-6 px-5">
               <div className="flex space-x-4">
                 <WalletConnect />
-                <ThemeSwitchButton />
+                <ThemeSwitcher />
               </div>
             </div>
           </div>
         </Popover.Panel>
       </Transition>
     </Popover>
-  );
+  )
 }
